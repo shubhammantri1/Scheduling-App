@@ -1,12 +1,14 @@
 # Scheduling-App
  It's an scheduling or Reminder app created in Android studio with kotlin.
-# Features
- Notifications 
- List view of Saved Tasks
- Add, Update, Delete Tasks
- Decent UI
+
+# Features 
+  Notifications <br> 
+  List view of Saved Tasks <br>
+  Add, Update, Delete Tasks <br>
+  Nice UI<br>
+  Easy UX<br>
  
 # Tech Stack
- Kotlin
- Android SQLite
+ Kotlin<br>
+ Android SQLite<br>
  
