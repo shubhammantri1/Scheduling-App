@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+    <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="0dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Time :  "
+                android:textColor="#673AB7"
+                android:padding="5dp"
+                android:layout_marginTop="0dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+                <EditText
+                    android:padding="3dp"
+                    android:background="@drawable/border"
+                    android:layout_marginLeft="1dp"
+                    android:id="@+id/ev_hour"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:hint="12"
+                    android:layout_marginTop="0dp"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="45sp" />
+                <EditText
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/ev_minute"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:hint="00"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:textSize="25sp" />
+            <EditText
+                android:background="@drawable/border"
+                android:id="@+id/ev_amp"
+                android:gravity="bottom"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:hint="AM"
+                android:textColor="#000000"
+                android:inputType="textCapWords"
+                android:textSize="20sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Text :   "
+            android:textColor="#673AB7"
+            android:padding="5dp"
+            android:layout_marginTop="0dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ev_text"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Small Text"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
